@@ -1,5 +1,5 @@
-import PropDrilling from "./components/PropDrilling"
-import { ReactEvent } from "./components/ReactEvents"
+import PropDrilling from "./basics/PropDrilling"
+import { ReactEvent } from "./basics/ReactEvents"
 const App = (props) => {
 
   return (
