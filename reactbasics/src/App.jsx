@@ -1,14 +1,10 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
-function App() {
+import PropDrilling from "./components/PropDrilling"
+import { ReactEvent } from "./components/ReactEvents"
+const App = (props) => {
 
   return (
-    <>
-      <h1>Chai aur React | Syed Kumail Raza</h1>
-    </>
+    // <PropDrilling course="BCOM"/>
+    <ReactEvent/>
   )
 }
 
